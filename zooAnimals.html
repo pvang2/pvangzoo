@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sprint A1 Lab 2</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./zooScript.js" defer></script>
+        <script src="./Components/header.js"></script>
+        <script src="./Components/AddAnimal.js"></script>
+    </head>
+    <body>
+        <cust-header></cust-header>
+        <article id="animal-list">
+            <h2>Zoo Animals</h2>
+            <div class="animalNumber">
+                <h4>Number of Animals so far: </h4>
+                <p id="animalNumber"></p>
+            </div>
+            <div class="container">
+                <table class="table table-striped">
+                    <tr class="bg-info">
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Type</th>
+                        <th>Is Pregnant</th>
+                        <th>Weight</th>
+                    </tr>
+                    <tbody id="animalTable">
+                    </tbody>
+                </table>
+            </div>
+        </article> 
+        <br>
+        <article id="add-Animal">
+        <add-animal></add-animal>
+    </article>
+    <footer>
+        <h3>Need more Java Script!!!</h3>
+    </footer>
+    </body>
+</html>
